@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex | PokéAPI</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <main class="container">
+
+    <section class="painel">
+
+      <header class="cabecalho">
+        <span class="tag">PokéAPI</span>
+        <h1>Pokédex</h1>
+        <p>Pesquise um Pokémon pelo nome ou número da Pokédex.</p>
+      </header>
+
+      <div class="pesquisa">
+        <input
+          type="text"
+          id="campoPokemon"
+          placeholder="Ex.: pikachu ou 25"
+          autocomplete="off"
+        >
+
+        <button id="btnPesquisar">Pesquisar</button>
+        <button id="btnLimpar" class="btn-secundario">Limpar</button>
+      </div>
+
+      <p class="dica">
+        Exemplos para testar:
+        pikachu, charizard, bulbasaur, squirtle, mewtwo, eevee,
+        snorlax, gengar, lucario, machamp, psyduck, jigglypuff,
+        dragonite, gyarados, lapras, arcanine, alakazam, onix,
+        scyther, magikarp, ditto, vaporeon, jolteon, flareon,
+        pidgeot, raichu, sandshrew, ninetales, zubat e oddish.
+      </p>
+
+      <div id="mensagem" class="mensagem"></div>
+
+      <section id="resultado" class="resultado"></section>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
