@@ -1,4 +1,4 @@
-# Pokédex com JavaScript e PokéAPI
+Projeto PokeAPI
 
 Projeto simples de consulta de Pokémon utilizando HTML, CSS, JavaScript e a PokéAPI.
 
